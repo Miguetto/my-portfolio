@@ -43,6 +43,7 @@ html, body {
 .home {
   width: 100%;
   height: 100%;
+  overflow: scroll;
 }
 
 .header {
@@ -138,3 +139,22 @@ html, body {
   to { transform: none; }
 }
 
+@media screen and (max-width: 480px){
+  .home {
+    width: auto;
+  }
+  .content {
+      width: auto;
+      height: auto;
+      padding: 0.5rem;
+  }
+  .content-0 {
+    padding: 0.5rem;
+  } 
+  .blurb {
+    font-size: 1.8rem;
+  }
+  .header {
+    font-size: 3rem;
+  }
+}
