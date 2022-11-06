@@ -184,6 +184,11 @@ html, body {
   color: #3c3c3c;
 }
 
+.card_in_process {
+  pointer-events: none;
+  color: #3c3c3c;
+}
+
 @keyframes pulse {
   from { transform: none; }
   50% { transform: scale(1.03); }

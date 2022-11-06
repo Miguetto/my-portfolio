@@ -1,4 +1,5 @@
 import { Navbar } from "../../ui"
+import { ProyectoItem } from "../components/ProyectoItem"
 
 export const ProyectosPage = () => {
   return (
@@ -17,27 +18,16 @@ export const ProyectosPage = () => {
             Proyectos.
           </div>
           <div className="blurb">
-            {/* <span>
-              <a href="https://orienta-t.herokuapp.com/" target="_blank">orientaT</a> - proyecto final grado superior desarrollo de aplicaciones web (CSS, JavaScript, PHP, Yii2, Ajax, JQuery).
-            </span><br/>
-            <span>
-              <a href="https://miguetto.github.io/gif-explorer-app/" target="_blank">gif-expert-app</a> - buscador de gifs (CSS, JavaScript, React).
-            </span><br/>
-            <span>
-              <a href="" target="_blank">todo-app</a> - lista de tareas (CSS, JavaScript, React).
-            </span><br/>
-            <span>
-              <a href="" target="_blank">poke-app</a> - buscador de pokémons (CSS, JavaScript, React).
-            </span> */}
+
             <a className="card__link" href="https://orienta-t.herokuapp.com/" target="_blank">
               <div className="card">
                 <h2>orientaT</h2>
                 <p className="card__title">
-                proyecto final grado superior 
-                desarrollo de aplicaciones web (CSS, JavaScript, PHP, Yii2, Ajax, JQuery).
+                  proyecto final grado superior
+                  desarrollo de aplicaciones web.
                 </p>
                 <p className="card__apply">
-                HTML, CSS, JavaScript, PHP, Yii2, Ajax, JQuery <i className="fas fa-arrow-right"></i>
+                  HTML, CSS, JavaScript, PHP, Yii2, Ajax, JQuery <i className="fas fa-arrow-right"></i>
                 </p>
               </div>
             </a>
@@ -46,34 +36,34 @@ export const ProyectosPage = () => {
               <div className="card">
                 <h2>Gif Explorer</h2>
                 <p className="card__title">
-                Buscador de gifs.
+                  Buscador de gifs.
                 </p>
                 <p className="card__apply">
-                HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
+                  HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
                 </p>
               </div>
             </a>
 
-            <a className="card__link" href="#" target="_blank">
+            <a className="card__link card_in_process" href="/" target="_blank">
               <div className="card">
-                <h2>Todo App</h2>
-                <p className="card__title">
-                Lista de tareas
+                <h2>Todo App ( en proceso )</h2>
+                <p className="card__title card_in_process">
+                  Lista de tareas
                 </p>
                 <p className="card__apply">
-                HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
+                  HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
                 </p>
               </div>
             </a>
 
-            <a className="card__link" href="https://orienta-t.herokuapp.com/" target="_blank">
-              <div className="card">
-                <h2>Poke App</h2>
-                <p className="card__title">
-                Buscador de pokémons.
+            <a className="card__link card_in_process" href="/" target="_blank">
+              <div className="card card_in_process">
+                <h2>Poke App ( en proceso )</h2>
+                <p className="card__title card_in_process">
+                  Buscador de pokémons.
                 </p>
                 <p className="card__apply">
-                HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
+                  HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
                 </p>
               </div>
             </a>
