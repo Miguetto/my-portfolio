@@ -10,7 +10,6 @@ export const PortfolioRoutes = () => {
       <Routes>
         <Route path="portfolio" element={<PortfolioPage />} />
         <Route path="biografia" element={<BiografiaPage />} />
-        <Route path="portfolio" element={<PortfolioPage />} />
         <Route path="proyectos" element={<ProyectosPage />} />
         <Route path="contacto" element={<ContactoPage />} />
 
