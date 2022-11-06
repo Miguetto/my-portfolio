@@ -13,7 +13,7 @@ export const PortfolioRoutes = () => {
         <Route path="proyectos" element={<ProyectosPage />} />
         <Route path="contacto" element={<ContactoPage />} />
 
-        <Route path="/" element={<Navigate to="/portfolio" />} />
+        <Route path="/" element={<Navigate to="/my-portfolio" />} />
 
       </Routes>
     </>
