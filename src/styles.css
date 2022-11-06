@@ -82,6 +82,9 @@ html, body {
   margin-bottom: 3.125rem;
   position: relative;
   -webkit-box-direction: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .an1 {
@@ -124,9 +127,61 @@ html, body {
   animation: pulse .9s infinite;
 }
 
-.a {
+.card {
+  text-decoration: none;
+  font-family: Avenir Next Bold,sans-serif;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  min-height: 200px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card {
+  background: radial-gradient(#ffffff6e, #cdc9c9e5);
+}
+
+.card__link {
+  font-family: Avenir Next Bold,sans-serif;
+  position: relative;
+  text-decoration: none;
   color: #691243;
-  cursor: pointer;
+}
+
+.card__link::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.5s;
+}
+
+.card__link:hover::after {
+  width: 100%;
+}
+
+.card__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #838b3d;
+}
+
+.card__apply {
+  grid-row: 4/5;
+  align-self: center;
+  color: #3c3c3c;
 }
 
 @keyframes pulse {
@@ -152,5 +207,14 @@ html, body {
   }
   .header {
     font-size: 3rem;
+  }
+  .card {
+    width: 200px;
+  }
+  .card__link {
+    font-size: 1.25rem;
+  }
+  .card__apply {
+    font-size: 0.8rem;
   }
 }
