@@ -25,17 +25,17 @@ html, body {
 }
 
 .form2 {
-  width: 700px;
+  width: 43.75rem;
   position: absolute;
-  top: -300px;
+  top: -18.75rem;
   display: flex;
   margin: 0 auto;
 }
 
 .form1 {
-  width: 600px;
+  width: 37.5rem;
   position: absolute;
-  top: -300px;
+  top: -18.75rem;
   display: flex;
   margin: 0 auto;
 }
@@ -48,10 +48,10 @@ html, body {
 
 .header {
   font-family: "Avenir Next Medium", sans-serif;;
-  font-size: 120px;
-  letter-spacing: 4px;
+  font-size: 7.5rem;
+  letter-spacing: 0.25rem;
   color: #3c3c3c;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   position: relative;
   -webkit-box-direction: normal;
 }
@@ -62,12 +62,12 @@ html, body {
   top: 50%;
   justify-content: space-between;
   position: relative;
-  max-width: 750px;
+  max-width: 46.875rem;
   flex-direction: row;
 }
 
 .content-0 {
-  max-width: 550px;
+  max-width: 34.375rem;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -75,17 +75,13 @@ html, body {
 
 .blurb {
   font-family: "Quattrocento", serif;
-  font-size: 22px;
-  line-height: 41px;
-  letter-spacing: 0.42px;
+  font-size: 1.375rem;
+  line-height: 2.563rem;
+  letter-spacing: 0.026rem;
   color: #838b3d;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   position: relative;
   -webkit-box-direction: normal;
-}
-
-.scroll{
-  overflow-y: scroll;
 }
 
 .an1 {
@@ -113,14 +109,14 @@ html, body {
   display: block;
   position: relative;
   color: #691243;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   text-decoration: none;
-  height: 30px;
+  height: 1.875rem;
   cursor: pointer;
   text-decoration: none;
   font-family: Avenir Next Bold,sans-serif;
-  font-size: 18px;
-  letter-spacing: .5px;
+  font-size: 1.13rem;
+  letter-spacing: 0.031rem;
   cursor: pointer;
 }
 
