@@ -44,10 +44,10 @@ export const ProyectosPage = () => {
               </div>
             </a>
 
-            <a className="card__link card_in_process" href="/" target="_blank">
+            <a className="card__link" href="https://miguetto.github.io/todo-app/" target="_blank">
               <div className="card">
-                <h2>Todo App ( en proceso )</h2>
-                <p className="card__title card_in_process">
+                <h2>Todo App</h2>
+                <p className="card__title">
                   Lista de tareas
                 </p>
                 <p className="card__apply">
