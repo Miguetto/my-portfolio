@@ -39,7 +39,7 @@ export const Navbar = () => {
                     
                     <a 
                         className="link"
-                        href="https://github.com/Miguetto"
+                        href="https://github.com/Miguetto/CV/blob/gh-pages/Miguel%20%C3%81ngel%20Caro%20Bernal.pdf"
                         target="_blank"
                     >
                         GitHub
