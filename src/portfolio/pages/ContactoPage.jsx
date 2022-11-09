@@ -20,7 +20,7 @@ export const ContactoPage = () => {
           <div className="blurb">
             <span>
               Siéntete libre de contactar conmigo.<br />
-              Puedes hacerlo a traves de LinkedIn, <a className="a" href="mailto:migueliscb@gmail.com">Gmail</a>, o descargar mi CV desde GitHub.
+              Puedes hacerlo a traves de LinkedIn, <a className="a" href="mailto:migueliscb@gmail.com">Gmail</a>, o descargar mi <a className="a" href="https://github.com/Miguetto/CV/blob/gh-pages/Miguel%20%C3%81ngel%20Caro%20Bernal.pdf">CV</a>.
             </span><br/>
           </div>
           <div className="stripe an1"></div>
