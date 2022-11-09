@@ -1,9 +1,9 @@
-[
+export const proyectos = [
     {
         "url": "https://orienta-t.herokuapp.com/",
         "title": "orientaT",
         "description": "proyecto final grado superior desarrollo de aplicaciones web.",
-        "language": "HTML, CSS, JavaScript, PHP, Yii2, Ajax, JQuery"
+        "language": "HTML, CSS, JavaScript, PHP, Yii2, Ajax, JQuery", 
     },
     {
         "url": "https://miguetto.github.io/gif-explorer-app/",

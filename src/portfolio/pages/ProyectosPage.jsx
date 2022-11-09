@@ -18,56 +18,7 @@ export const ProyectosPage = () => {
             Proyectos.
           </div>
           <div className="blurb">
-
-            <a className="card__link" href="https://orienta-t.herokuapp.com/" target="_blank">
-              <div className="card">
-                <h2>orientaT</h2>
-                <p className="card__title">
-                  proyecto final grado superior
-                  desarrollo de aplicaciones web.
-                </p>
-                <p className="card__apply">
-                  HTML, CSS, JavaScript, PHP, Yii2, Ajax, JQuery <i className="fas fa-arrow-right"></i>
-                </p>
-              </div>
-            </a>
-
-            <a className="card__link" href="https://miguetto.github.io/gif-explorer-app/" target="_blank">
-              <div className="card">
-                <h2>Gif Explorer</h2>
-                <p className="card__title">
-                  Buscador de gifs.
-                </p>
-                <p className="card__apply">
-                  HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
-                </p>
-              </div>
-            </a>
-
-            <a className="card__link" href="https://miguetto.github.io/todo-app/" target="_blank">
-              <div className="card">
-                <h2>Todo App</h2>
-                <p className="card__title">
-                  Lista de tareas
-                </p>
-                <p className="card__apply">
-                  HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
-                </p>
-              </div>
-            </a>
-
-            <a className="card__link card_in_process" href="/" target="_blank">
-              <div className="card card_in_process">
-                <h2>Poke App ( en proceso )</h2>
-                <p className="card__title card_in_process">
-                  Buscador de pokémons.
-                </p>
-                <p className="card__apply">
-                  HTML, CSS, JavaScript, React <i className="fas fa-arrow-right"></i>
-                </p>
-              </div>
-            </a>
-
+            <ProyectoItem />
           </div>
           <div className="stripe an1"></div>
         </div>

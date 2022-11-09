@@ -1,17 +1,12 @@
-import { useFetchProyects } from '../hooks/useFetchProyects';
+import { proyectos } from "../../../public/proyects/proyects";
 
 export const ProyectoItem = () => {
-
-    const { proyects, isLoading } = useFetchProyects();
     
     return (
         <>
             {
-                isLoading && ( <h2>Cargando...</h2> )
-            }
-            {
-                proyects.map((proyect) => (
-                    <a className="card__link" href={proyect.url} target="_blank">
+                proyectos.map((proyect) => (
+                    <a key={ proyect.title } className="card__link" href={proyect.url} target="_blank">
                         <div className="card">
                             <h2>{proyect.title}</h2>
                             <p className="card__title">{proyect.description}</p>
