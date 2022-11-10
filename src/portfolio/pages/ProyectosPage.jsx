@@ -13,11 +13,11 @@ export const ProyectosPage = () => {
         </svg>
       </div>
       <div className="content">
-        <div className="content-0">
+        <div className="content-0 animate__animated animate__fadeIn">
           <div className="header">
             Proyectos.
           </div>
-          <div className="blurb">
+          <div className="blurb animate__animated animate__fadeInLeft">
             <ProyectoItem />
           </div>
           <div className="stripe an1"></div>

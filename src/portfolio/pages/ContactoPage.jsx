@@ -13,7 +13,7 @@ export const ContactoPage = () => {
         </svg>
       </div>
       <div className="content">
-        <div className="content-0">
+        <div className="content-0 animate__animated animate__fadeIn">
           <div className="header">
             Contacto.
           </div>
