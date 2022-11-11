@@ -12,7 +12,7 @@ export const proyectos = [
         "language": "HTML, CSS, JavaScript, React"
     },
     {
-        "url": "/",
+        "url": "https://miguetto.github.io/todo-app/",
         "title": "Todo App",
         "description": "Lista de tareas.",
         "language": "HTML, CSS, JavaScript, React"
