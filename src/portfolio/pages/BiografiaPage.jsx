@@ -19,11 +19,11 @@ export const BiografiaPage = () => {
           </div>
           <div className="blurb">
             <span>
-              Soy Miguel Ángel Caro un apasionado de las nuevas tecnologías y la programación
+              Soy un apasionado de las nuevas tecnologías y la programación
               desde pequeño.<br/>
               Desarrollador Web y Técnico Informático.<br/>
               Aplico mi pasión en desarrollar nuevos proyectos y nuevas ideas.
-
+              ¿Lo primero? La actitud, lo demás viene solo.
             </span>
           </div>
           <div className="stripe an1"></div>
