@@ -14,11 +14,11 @@ export const proyectos = [
         "finalizado": true,
     },
     {
-        "url": "a",
+        "url": "https://comforting-boba-f56a18.netlify.app/",
         "title": "Pokemon app",
         "description": "Buscador de pokémon.",
-        "language": "HTML, CSS, JavaScript, React",
-        "finalizado": false,
+        "language": "HTML, CSS, JavaScript, React, Redux",
+        "finalizado": true,
     },
     {
         "url": "https://orienta-t.herokuapp.com/",
