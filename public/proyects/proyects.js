@@ -1,6 +1,6 @@
 export const proyectos = [
     {
-        "url": "https://golden-moonbeam-88b4fb.netlify.app/characters",
+        "url": "https://golden-moonbeam-88b4fb.netlify.app",
         "title": "StarWeb Personajes",
         "description": "Web donde vemos los personajes de Star Wars con sus características y podemos añadir a favoritos los que más nos gusten.",
         "language": "HTML, CSS, Tailwind, JavaScript, React, Hooks, Axios",
