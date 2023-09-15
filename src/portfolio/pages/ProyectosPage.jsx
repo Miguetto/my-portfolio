@@ -24,9 +24,10 @@ export const ProyectosPage = () => {
         </div>
 
         <div className="navBar">
-          <Navbar />
-        </div>
+        <Navbar />
       </div>
+      </div>
+      
     </div>
   )
 }
