@@ -1,5 +1,12 @@
 export const proyectos = [
     {
+        "url": "https://calendar-app-back-production.up.railway.app/#/auth/login",
+        "title": "CalendarApp",
+        "description": "Calendario estilo google calendar.",
+        "language": "HTML, CSS, Tailwind, JavaScript, React, Redux, Hooks, Axios",
+        "finalizado": true,
+    },
+    {
         "url": "https://golden-moonbeam-88b4fb.netlify.app",
         "title": "StarWeb Personajes",
         "description": "Web donde vemos los personajes de Star Wars con sus características y podemos añadir a favoritos los que más nos gusten.",
@@ -30,7 +37,7 @@ export const proyectos = [
     {
         "url": "https://orienta-t.herokuapp.com/",
         "title": "orientaT",
-        "description": "proyecto final grado superior desarrollo de aplicaciones web.",
+        "description": "Proyecto final grado superior desarrollo de aplicaciones web.",
         "language": "HTML, CSS, JavaScript, PHP, Yii2, Ajax, JQuery",
         "finalizado": false,
     },
